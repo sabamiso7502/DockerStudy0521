@@ -1,0 +1,23 @@
+docker run -it ubuntu bash
+
+cd /home
+
+echo "This is sample file." >> sample.txt
+
+cat sample.txt
+
+ctrl + p の後に ctrl + q
+
+docker ps
+
+docker commit コンテナID sample03
+
+docker images
+
+docker run -it sample03 bash
+
+cd /home
+
+ls
+
+cat sample.txt

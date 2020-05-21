@@ -1,0 +1,7 @@
+docker pull ubuntu
+
+docker create -t ubuntu echo hello world
+//コンテナIDが出力される
+
+docker start コンテナID
+

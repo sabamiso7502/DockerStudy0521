@@ -1,0 +1,5 @@
+docker build . -t ユーザ名/sample05
+
+docker login
+
+docker push ユーザ名/sample05

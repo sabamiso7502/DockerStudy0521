@@ -1,0 +1,7 @@
+docker build . -t sample04
+
+docker run -it sample04 bash
+
+cat sample.txt
+
+docker history sample04
